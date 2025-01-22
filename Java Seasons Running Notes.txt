@@ -1,0 +1,508 @@
+Java Season -1 
+
+Day 1 
+
+1996
+
+
+Features of java : 
+
+1. Simple 
+
+-> syntax is based on c++ 
+-> removed many of the confusing concepts like explicit pointers , operator overloading etc ..
+
++ - * / % 
+
+2 + 5 = 7  here + used for addition
+
+2 + 5 = 32 here + used for power operation
+
+-> no need to remove unrefrenced objects , Garbage collector will do the deallocation activiies etc ..
+
+------------------------------
+
+2. Object Oriented 
+
+OOP is a methodology that simplifies s/w development and maintanence using some rule 
+	-Class
+	-Object
+	-Encapsulation
+	-Polymorphism
+	-Inheritance
+	-Abstraction
+	
+--------------------------------
+
+3. Robust (Strong)
+
+- Java user Strong memory management 
+- No pointers -> avoids security problems 
+- automatic Garbage collector 
+- Exception Handling & type checking 
+
+
+----------------------------------
+
+4. Secure 
+
+JRE 
+
+---------------------------------
+5. Platform independent 
+
+platform ==> OS 
+
+-------------------------------
+6. Architectural Neutral
+
+7. Portable
+
+WORA - Write Once Run Anywhere 
+
+8. Distributed
+
+9. Dynamic
+
+10. Highly interpreted
+
+11. High Performance
+
+12. MultiThreaded
+
+13. Networked.
+
+
+
+
+********************************************************
+Day 2 -  16th Jan Thursday
+********************************************************
+
+JDK installation : 
+
+JDK 11
+
+http://oracle.com/in/java/technologies/downloads/#java11-windows
+
+
+C:\Program Files\Java\jdk-11
+
+
+JDK Configuration :
+
+
+Configuration means telling or informing OS where our jdk is present 
+
+
+how to check java is installed and configuration ?
+
+open cmd
+
+C:\Users\Riyaz>java -version
+java version "11.0.25" 2024-10-15 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.25+9-LTS-256)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.25+9-LTS-256, mixed mode)
+
+
+---------------------------------------------------
+JDK Folders
+---------------------------------------------------
+					
+						jdk
+						
+			
+			lib          bin	  jre 	
+						
+
+lib : predefined stuff or java programs 
+
+					collection of APIs (jar)
+						|
+					Collection of packages (folder)
+						|
+					Class    			& Interfaces   (.java) 
+				Variables  Methods        Constants/Fields   Abstract MEthods	
+
+
+********************************************************
+Day 3 -  17th Jan Friday
+********************************************************
+
+
+jdk - bin folder : tools folders 
+
+bin means binary or executable 
+
+
+javac --> this is used to compile a java file 
+
+syntax : 
+
+to compile 
+
+javac FileName.java
+
+to execute 
+
+java FileName 
+
+
+
+JRE : Java runtime Environment 
+
+
+JVM - Java Virtual Machine having abstract tasks (empty tasks) 
+
+				
+										JVM 
+										
+										
+							CLSS 			EE 				GC 
+							
+							
+									Interpreter	JIT compiler
+
+CLSS - Class Loader Subsystem : 
+
+- Loading 
+- Linking 
+- Initialization
+
+EE - Execution engine 
+
+Interpreter : Byte code --> binary Code 
+
+line  by line code convert and execute 
+
+JIT Compiler :  Just In Time Compiler 
+
+looping /branching ( for / while etc ..)
+
+
+GC : Garbage Collector  - Memory Deallocation
+
+
+Mark 
+
+Sweep 
+		
+System.gc();
+
+Runtime.gc();
+
+
+******************************************
+JAVA MEMORY BLOCKS
+******************************************
+
+1. CLASS AREA / METHOD AREA
+
+- .class Files 
+- Static Variables
+- Static Methods
+- Static Blocks
+
+
+2. Heap Area (Dynamic memory allocation)
+
+- Objects
+- arrays 
+
+3. Java stack Area 
+
+- local variables or declaration
+- Expressions 
+- current running logic / code 
+
+4. String Constant Pool Area (SCPA)
+only for String literals 
+e.g 
+
+String s1="FLM";
+
+
+
+********************************************************
+Day 4 -  20th Jan Monday
+********************************************************
+										
+-----------------------------------
+Structure of Java Program
+-----------------------------------									
+
+4 Sections 
+
+1. Documentation Section  - optional 
+2. Package Section - optional if you are not wokring in project otherwise mandate
+3. Import Section - dependency 
+4. Class/Interface Section - Mandate 
+
+
+Eclipse download :
+
+it's a direct application there is no need of installation 
+
+https://www.eclipse.org/downloads/packages/
+
+Latest "Eclipse IDE 2024-12 R Packages" 
+
+what is the eclipse version in your project ?
+
+Eclipse IDE 2024-03 R Packages
+
+
+Eclipse IDE for Enterprise Java and Web Developers
+
+
+???????????????????????????????
+Assignment -1 
+
+Complete Eclipse Set up 
+
+Create a Project 
+
+send the screenshot to below email id 
+
+flmtechteam.testing@gmail.com 
+
+????????????????????????????????????????
+
+********************************************************
+Day 5 -  21st Jan Tuesday
+********************************************************
+
+-----------------------------------
+Structure of Java Program (cont...)
+-----------------------------------									
+
+4 Sections 
+
+1. Documentation Section  - optional 
+2. Package Section - optional if you are not wokring in project otherwise mandate
+3. Import Section - dependency 
+4. Class/Interface Section - Mandate 
+
+1. Documentation Section means Comments 
+
+single line comments //
+
+multiline 
+/* 
+ khkjkh
+ kjhjkhkj
+ kjhkjhk
+*/
+
+2. Package Section 
+
+package means folder 
+
+why we need package ? 
+
+for logical grouping 
+
+or proper organization 
+
+syntax :
+
+package packname;
+
+package pack1.pack2;
+
+
+3. Import Section 
+
+syntax :
+
+
+import packagename.*;   ==> not prefered ==> poor readabilty 
+
+import packagename.ClassName; ==>  prefered ==> good readabilty 
+
+import static packagename.ClassName.methodname; ==> will be explained after completion of static variables and methods
+
+
+4. Class / Interface 
+
+Class will have variables and Methods 
+
+Interface will have constants/fields and abstraction methods 
+
+syntax :
+
+access-specifier access-modifier class ClassName{
+
+
+variables 
+methods 
+
+
+}
+
+access-specifier or access-labels 
+
+public/protected/private/<default>or<unspecified>
+
+access-modifier tells about behaviour 
+
+<default>or<unspecified>/ static / abstract 
+
+
+********************************************************
+Day 6 -  22nd Jan Wednesday
+********************************************************
+
+---------------------------------------
+Java Naming Conventions
+---------------------------------------
+
+								  packages
+									  |
+					Classes           		Interfaces
+					 |
+		Variables       Methods			Constants/Fields        Abstract Methods 
+		
+		
+packages : lowercase
+
+
+e.g 
+
+java.util
+
+org.openqa.selenium 
+
+testscripts
+
+testscripts.regression
+
+
+
+Classes or Interfaces : Title Case 
+
+RamaKrishna  here Starting letter of each word will be upper case 
+
+e.g 
+
+Scanner
+Hello
+ValidateLogin
+ChromeDriver
+
+Variables/Objects or methods/Abstract Methods  :   CamelCase (lowerCase + TitleCase)
+
+
+int x=10;
+
+ArrayList allLinks;
+
+println(
+
+nextInt(
+
+Constants/Fields : All upper case 
+
+
+PI=3.14
+
+MAX_LIMIT=10000
+
+----------------------------------------
+Variables in JAVA
+----------------------------------------
+
+referance name given to memory block 
+
+int x=10 
+
+-> simplifies expressions 
+
+-> stores once recall anywhere in program 
+
+
+syntax :
+
+access-specifier access-modifier  datatype variableName ; ==> declaration 
+variableName = value ; assignment
+
+or
+
+access-specifier access-modifier  datatype variableName = value ; declaration and assignment
+
+int x;
+x=10;
+
+or
+int x=10;
+
+
+								Variables
+								
+				
+				Local 					Instance 				Static 
+				
+				
+1. Definition
+2. when memory is allocated 
+3. where memory is allocated
+4. what is the calling style 
+5. what is the scope or life time 			
+
+
+Local Variables :
+
+
+
+1. Definition:
+
+variables which are declared inside a method 
+
+2. when memory is allocated 
+
+when that method is called during execution 
+
+3. where memory is allocated
+
+Java Stack Area 
+
+4. what is the calling style 
+
+variableName itself 
+
+
+5. what is the scope or life time 			
+
+till the end of the method 
+
+
+Note : 
+
+It's always resposibity of programmer to initialize local variables
+
+-----------------------------------------------------
+
+Instance Variables :
+
+1. Definition
+
+variables which are declared inside a class outside of method 
+
+2. when memory is allocated 
+
+when object / instance is created for that class 
+
+ClassName objectName=new ClassName();
+
+3. where memory is allocated
+
+Heap Area along with Object 
+
+4. what is the calling style 
+
+objectName.variableName
+
+5. what is the scope or life time 
+
+till the last usage of object 			
+
