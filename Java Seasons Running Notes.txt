@@ -506,3 +506,66 @@ objectName.variableName
 
 till the last usage of object 			
 
+
+********************************************************
+Day 7 -  23rd Jan Thursday
+********************************************************
+
+--------------------------------
+Static Variables
+--------------------------------
+
+if something is common and can be shared then go for static 
+
+1. Definition
+
+variables which are declared inside a class outside of method having keyword static 
+
+2. when memory is allocated 
+
+during .class file loading 
+
+3. where memory is allocated
+
+Class Area / Method Area 
+
+4. what is the calling style 
+
+ClassName.variableName;
+
+5. what is the scope or life time 		
+
+till the end of program 
+	
+
+----------------------------------------
+Data Types in Java 
+----------------------------------------
+
+i=10 ==> Not a typed lang (e.g Python , REXX etc ..)
+
+int i=10; ==> Strongly typed language (e.g Java)
+
+										Datatypes
+							
+							
+				primitive datatypes(8)					non-primitive datatypes (refrenced or user defined)
+
+		
+		boolean 			Numeric 							Strings ,Arrays , Object etc ..
+		
+						char		Integral
+						
+						
+								integer			floating point
+		---------------------------------------------------------------						
+								
+		boolean			char 	byte short int long 	float    double			
+						
+						
+123 321
+
+2147483648
+2147483643
+
+3463847412
