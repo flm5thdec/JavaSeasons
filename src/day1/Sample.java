@@ -3,6 +3,8 @@ package day1;
 
 import java.util.Scanner;
 
+import variables.VariablesDemo2;
+
 public class Sample {
 	
 	public static void main(String[] args) {
@@ -17,6 +19,8 @@ public class Sample {
 		
 			
 		System.out.println(x);
+		
+		System.out.println(VariablesDemo2.j);
 		
 	}
 

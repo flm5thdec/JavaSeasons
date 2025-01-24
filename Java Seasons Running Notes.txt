@@ -549,7 +549,7 @@ int i=10; ==> Strongly typed language (e.g Java)
 										Datatypes
 							
 							
-				primitive datatypes(8)					non-primitive datatypes (refrenced or user defined)
+				primitive datatypes(8)					non-primitive datatypes (referenced or user defined)
 
 		
 		boolean 			Numeric 							Strings ,Arrays , Object etc ..
@@ -569,3 +569,22 @@ int i=10; ==> Strongly typed language (e.g Java)
 2147483643
 
 3463847412
+
+********************************************************
+Day 8 -  24th Jan Friday
+********************************************************
+
+Method : 
+
+-> set of instruction
+-> It performs some particular task 
+
+
+uses of methods : 
+
+-> reusability
+-> code clarity
+-> avoids code redundaancy(duplication)
+-> length of the code decreases
+-> easy debugging of program 
+

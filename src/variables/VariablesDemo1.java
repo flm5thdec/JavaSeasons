@@ -17,6 +17,8 @@ public class VariablesDemo1 {
 		VariablesDemo1 obj=new VariablesDemo1();
 		System.out.println(obj.a);
 		System.out.println(obj.b);
+		System.out.println(VariablesDemo2.j);
+		
 
 	}
 	
