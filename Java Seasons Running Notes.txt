@@ -574,9 +574,9 @@ int i=10; ==> Strongly typed language (e.g Java)
 Day 8 -  24th Jan Friday
 ********************************************************
 
-Method : 
+Method : a block 
 
--> set of instruction
+-> set of instructions
 -> It performs some particular task 
 
 
@@ -588,3 +588,83 @@ uses of methods :
 -> length of the code decreases
 -> easy debugging of program 
 
+********************************************************
+Day 9 -  27th Jan Monday
+********************************************************
+
+syntax : 
+
+access-specifier access-modifier return-type methodName(arguments or paramters)
+{
+
+local declarations ;
+
+statements ;
+
+return value;  ===> not required when return-type  is void 
+
+}
+
+Types of methods : 
+
+one classification 
+
+1. Predefined methods 					2.Userdefined Methods
+e.g println()							  getAccountBalance()
+nextInt()
+sqrt()
+
+other classifaction (based on behaviour) :
+
+1. Instance Methods or non-static methods 		2.Static methods
+
+------------------------------
+1. Instance Methods or non-static methods 
+
+1. Definition
+any method which is declared without static keyword 
+(default/final/abstract/ etc ..)
+
+
+2. when memory is allocated 
+
+while object creation memory block is allocated .
+
+3. where memory is allocated
+
+Heap Area (along with objects)
+
+4. what is the calling style 
+
+objectName.methodName()
+
+5. what is the scope or life time 	
+
+till the last usage of object Reference 	
+
+------------------------------
+Static methods
+
+if there is some code which can be frequently used (common and shared across)
+
+1. Definition
+
+any method which is declared with static keyword 
+
+2. when memory is allocated 
+
+during .class files loading 
+
+3. where memory is allocated
+
+Class Area / Method Area 
+
+4. what is the calling style
+
+ClassName.methodName
+ 
+5. what is the scope or life time 	
+
+begining of program to end of program 
+
+	
