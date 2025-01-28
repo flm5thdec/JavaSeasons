@@ -667,4 +667,99 @@ ClassName.methodName
 
 begining of program to end of program 
 
-	
+********************************************************
+Day 10 -  28th Jan Tuesday
+********************************************************
+
+Based on return-type and arguments methods can be classified into 4 models 
+
+1) methods without return-type and arguments 
+
+2) methods with return type and no arguments
+
+3) methods with no return-type and having arguments 
+
+4) methods having return-type and arguments
+
+
+Scanner class : java.util
+
+nextInt():int 
+
+
+
+PrinStream : Class (java.io)
+
+
+println : this will print and takes the cursor to next line 
+
+print : this will print and cursor will stay in same line 
+
+* * * * * 
+* * * *
+* * *
+* * 
+*
+
+printf : to format  your output 
+format : same as printf output 
+
+*************************
+3 things to be know before 
+using any method 
+
+1) what arguments it is taking 
+2) what is the return-type
+3) what does this method do 
+
+e.g 
+
+Scanner
+
+nextInt():int
+
+1) what arguments it is taking  ==> no arguments
+2) what is the return-type ==> int 
+3) what does this method do ==> this method is going to scan an integer and return you the same 
+
+===================================
+OOP - Object Oriented Programming (Java ,c++, C# , python etc ..)
+
+POP - Procedure Oriented Programming ( COBOL , C , etc ..)
+
+
+-> "Simula" first OOP 
+-> "Small Talk" is First Truely OOP 
+
+1)Object
+2)Class
+3)Encapsulation
+4)Polymorphism
+5)Inheritance
+6)Abstraction
+
+Object : is anything that exists 
+
+In Java, an object is an instance of a class that represents a real-world entity
+
+3 characteristics for object:
+
+
+state : represents data or attributes of an object 
+
+variables 
+
+Behaviour : represents the operations/tasks of an object 
+
+methods 
+
+Identity : a unique ID used by JVM to identify object 
+
+Marker : (state /variables : shape , length , color etc ..)
+		 (behaviour / methods :  writing on biard , marking something on parcel etc..)
+		 
+Dog : (state /variables : gender , breed , color etc ..)
+		 (behaviour / methods :  eating , barking sleep etc..)
+		 
+AccountNumber : (state /variables : length of digits)
+		 (behaviour / methods :  funds transfer, account statements etc..)
