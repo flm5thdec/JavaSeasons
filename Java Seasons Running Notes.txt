@@ -763,3 +763,67 @@ Dog : (state /variables : gender , breed , color etc ..)
 		 
 AccountNumber : (state /variables : length of digits)
 		 (behaviour / methods :  funds transfer, account statements etc..)
+		 
+********************************************************
+Day 11 -  29th Jan Wednesday
+********************************************************
+
+Class : 
+
+a logical entity
+
+is a Blueprint/template  from which you can create object 
+
+
+----------------------------------
+Object Creation Techniques
+-----------------------------------
+
+1) using new operator 
+
+ClassName objectName=new ClassName();
+
+2)using SFM (Static Factory Method)
+
+ClassName objectName=ClassName.method();
+
+3) using NSFM (non-Static Factory Method)
+
+when there is dependecy of one class to other class 
+
+XSSFWorkbook
+
+XSSFSheet 
+
+XSSFWorkbook wb=new XSSFWorkbook();
+XSSFSheet ws=wb.getSheet();
+
+ClassName1 object1=new ClassName1();
+ClassName2 object2=object1.methodName();
+
+4) using cloning 
+
+5) using Literals 
+
+ClassName object = value ;
+
+String or Wrapper 
+
+e.g
+
+String str="FLM";
+
+6) using deserialization 
+  no syntax
+  implicit oprtaion (by JVM)
+  
+
+------------------------------------
+Encapsulation
+------------------------------------
+
+Encapsulation in Java is a mechanism of wrapping
+ the data (variables) and code acting on the data (methods) 
+together as a single unit.
+
+Encapsulation = Data hiding + Abstraction
