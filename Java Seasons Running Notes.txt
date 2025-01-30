@@ -827,3 +827,34 @@ Encapsulation in Java is a mechanism of wrapping
 together as a single unit.
 
 Encapsulation = Data hiding + Abstraction
+
+
+********************************************************
+Day 11 -  29th Jan Wednesday
+********************************************************
+
+e.g for Encapsulation :
+
+Cold act tab/capsule 
+ATM
+Mobile Instrument etc ..
+
+
+The field Bank.balance is not visible
+
+
+--------------
+this
+---------------
+is a keyword cum operator
+is a predfined non-static variableName
+represents current calling object referance
+
+
+what is the need of this keyword ?
+
+if local variables same as instance variables
+local variables will dominate 
+
+
+
