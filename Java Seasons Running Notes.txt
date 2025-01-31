@@ -857,4 +857,70 @@ if local variables same as instance variables
 local variables will dominate 
 
 
+********************************************************
+Day 12 -  30th Jan Thursday
+********************************************************
 
+Polymorphism :
+
+Poly - many 
+
+morphs - forms 	
+
+The method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (long, long)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (int, int, int)
+
+
+Method Overloading :
+
+Multiple methods in same class have same name but different paramaters
+
+Static  Polymorphism is also called as 
+
+Compile time or Ealry Binding
+
+Binding means mapping the calling method and called method 
+
+MEthod Overloading :
+
+-> difference in data types 
+
+add(double, double)
+add(int, int)
+add(long, long)
+add(String, String)
+
+-> show variance in no of arguments
+
+add(int, int)
+add(int, int, int)
+
+--> change in order of argeuments  (not prefered beacuse few cases it won't work)
+
+
+setStudentDetails(int, String)
+SetStudentDetails(String, int) 
+
+???????????????????????????????????????
+Assignment - 2
+
+Generate an Aadhar number using 
+polymorphism 
+
+
+A.C :
+
+user can give only pancard or 
+pancard and voter id or
+
+pancard , voter id and passport 
+
+o/p :  4512 0145 5012
+
+note or tip : 
+		System.out.print((int)(Math.random()*10000)+" ");
+
+?????????????????????????????????????????

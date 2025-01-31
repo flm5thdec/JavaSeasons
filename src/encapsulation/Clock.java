@@ -7,9 +7,9 @@ public class Clock {
 	//setter
 	public void setClock(int hr,int min,int sec)
 	{
-		hr=hr;
-		min=min;
-		sec=sec;
+		this.hr=hr;
+		this.min=min;
+		this.sec=sec;
 	}
 	
 	public void getClock()
