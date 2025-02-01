@@ -4,6 +4,11 @@ public class Clock {
 
 	int hr,min,sec;
 	
+	public  Clock()
+	{
+		System.out.println("entered in constructor ..");
+	}
+	
 	public void setClock(int hr)
 	{
 		this.hr=hr;

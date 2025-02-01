@@ -38,7 +38,17 @@ public class Sum {
 		System.out.println("Sum of "+a+b);
 	}
 	
-	
+	//var args
+	public void add(int ...a)
+	{
+		int res=0;
+		for(int i=0;i<a.length;i++)
+		{
+			res=res+a[i];
+		}
+		
+		System.out.println(res);
+	}
 	
 	
 	

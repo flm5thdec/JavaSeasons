@@ -922,5 +922,48 @@ o/p :  4512 0145 5012
 
 note or tip : 
 		System.out.print((int)(Math.random()*10000)+" ");
+		
+		send your program or screenshot to below email id
+		
+		flmtechteam.testing@gmail.com
 
 ?????????????????????????????????????????
+
+
+********************************************************
+Day 13 -  1st Feb Saturday
+********************************************************
+
+Method Signature :  
+
+method name + paramaters list 
+
+note : this doesn't include return type or access-modifiers
+
+In Method Overloading method names are same but method signature is different 
+
+
+-------------------------
+Constructor
+-------------------------
+is a method having same name as ClassName 
+
+					In OOPs
+					
+		Constructors 			Destructors	(java X)	
+					
+Rules of Constructor :
+
+1) constructor name should match with Name 	of Class 
+2) Constructors takes arguments but doesn't have return-type 
+Q: what happens if we declare a return-type
+Ans : no error , the method is no longer constructor , it will be treated as normal / concrete method 
+3) Constructors has no modifiers 
+Error occurs when modifier is specified
+Illegal modifier for the constructor in type Clock; only public, protected & private are permitted
+
+4) Constructors access-specifiers should be either public or protected 
+
+but not private or default (not prefered) 
+
+			

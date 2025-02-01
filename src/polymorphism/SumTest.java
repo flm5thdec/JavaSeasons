@@ -14,7 +14,7 @@ public class SumTest {
 		obj.add(2233344555L, 4433366444L);
 		obj.add(10,20,30);
 		obj.add("Rama", "Krishna");
-
+		obj.add(10,20,30,40,50,60,70,80,90,100);
 
 	}
 

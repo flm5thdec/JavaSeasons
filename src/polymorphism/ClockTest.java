@@ -9,6 +9,8 @@ public class ClockTest {
 		//c1.setClock(7, 23);
 		c1.setClock(7, 23, 55);
 		c1.getClock();
+		
+		
 
 	}
 
