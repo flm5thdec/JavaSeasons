@@ -830,7 +830,7 @@ Encapsulation = Data hiding + Abstraction
 
 
 ********************************************************
-Day 11 -  29th Jan Wednesday
+Day 12 -  30th Jan Wednesday
 ********************************************************
 
 e.g for Encapsulation :
@@ -858,7 +858,7 @@ local variables will dominate
 
 
 ********************************************************
-Day 12 -  30th Jan Thursday
+Day 13 -  31st Jan Thursday
 ********************************************************
 
 Polymorphism :
@@ -931,7 +931,7 @@ note or tip :
 
 
 ********************************************************
-Day 13 -  1st Feb Saturday
+Day 14 -  1st Feb Saturday
 ********************************************************
 
 Method Signature :  
@@ -958,7 +958,7 @@ Rules of Constructor :
 2) Constructors takes arguments but doesn't have return-type 
 Q: what happens if we declare a return-type
 Ans : no error , the method is no longer constructor , it will be treated as normal / concrete method 
-3) Constructors has no modifiers 
+3) Constructors has no modifiers (static / abstract / etc ..)
 Error occurs when modifier is specified
 Illegal modifier for the constructor in type Clock; only public, protected & private are permitted
 
@@ -966,4 +966,24 @@ Illegal modifier for the constructor in type Clock; only public, protected & pri
 
 but not private or default (not prefered) 
 
+********************************************************
+Day 15 -  3rd Feb Monday
+********************************************************
 			
+			
+						Constructors
+						
+						
+		default constructor                parameterized constructor
+		or non-paramterized 
+
+		
+***************************
+Inheritance 
+***************************
+1. single or Simple 
+2. Multi level
+3. Hiererichal 
+4. Multiple
+5. Hybrid 
+
