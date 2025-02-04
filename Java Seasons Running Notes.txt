@@ -987,3 +987,30 @@ Inheritance
 4. Multiple
 5. Hybrid 
 
+********************************************************
+Day 16 -  4th Feb Tuesday
+********************************************************
+
+3. Hiererichal 
+
+
+4 access-specifiers
+
+1. public - any class in world 
+2. protected - only childor sub classes
+3. default - only the classes present in that package 
+4. private - no other class can access  
+
+
+-----------------------------------
+Method Overriding
+-----------------------------------
+
+
+Method Signature :  
+
+method name + paramaters list 
+
+In method overloading : Method Signature is not same 
+
+In method overriding : Method Signature  is same 
