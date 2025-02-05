@@ -9,7 +9,7 @@ public class C extends P {
 		System.out.println("This is C's m1 method ");
 	}
 	
-	void greet(String name)
+	 void greet(String name)
 	{
 		System.out.println("Hey "+name+" whatzapp ????");
 	}

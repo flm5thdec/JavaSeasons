@@ -1014,3 +1014,37 @@ method name + paramaters list
 In method overloading : Method Signature is not same 
 
 In method overriding : Method Signature  is same 
+
+
+********************************************************
+Day 17 -  5th Feb Wednesday
+********************************************************
+
+
+Negative Scenarios for method overriding :
+
+1) Private Methods cannot be overriden
+2) Final Methods cannot be overriden
+3) Static Methods cannot be overriden
+Note : but if both parent and child are static the it is called "Method Hiding"
+4) Return type mismatch or changing return type methods cannot be overriden
+
+-------------------------
+Super
+-------------------------
+Super is a keyword cum operator
+which will refer to Current class Parent Reference 
+
+-----------------------------------
+Abstraction
+-----------------------------------
+
+								Abstraction
+								
+			abstract class						Interfaces
+			
+abstract class	 : 			
+			
+we can't create object for abstarct classes .
+e.g  Cannot instantiate the type Numbers				
+								

@@ -8,9 +8,10 @@ public class P {
 		System.out.println("This is P's m1 method ");
 	}
 	
-	void greet(String name)
+	 void  greet(String name)
 	{
 		System.out.println("Hi "+name+" ..how are you ?");
+		
 	}
 
 }
