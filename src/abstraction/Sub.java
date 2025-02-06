@@ -9,4 +9,16 @@ public class Sub extends Numbers {
 		
 	}
 
+	@Override
+	void m1() {
+		
+		
+	}
+
+	@Override
+	void m2(String s1) {
+		
+		
+	}
+
 }

@@ -13,7 +13,7 @@ public class AbstarctDemo1 {
 		
 		Numbers obj2=new Sub();
 		obj2.compute(30, 40);
-
+		
 	}
 
 }

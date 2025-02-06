@@ -1048,3 +1048,41 @@ abstract class	 :
 we can't create object for abstarct classes .
 e.g  Cannot instantiate the type Numbers				
 								
+
+********************************************************
+Day 18 -  6th Feb Thursday
+********************************************************
+								
+								
+----------------------
+Interfaces
+----------------------								
+
+100 % abstraction
+
+Constants/Fields      abstract methods 
+
+double pi=3.14;
+
+pi=2.14;
+syntax :
+
+public static final datatype ConstantName=value;
+
+Interface syntax :
+
+access-specifier access-modifier interface InterfaceName
+{
+
+//constants/fields
+//abstarct methods 
+
+
+} 
+
+java.lang 
+
+default of package 
+
+Object class is the root class of classes .
+
