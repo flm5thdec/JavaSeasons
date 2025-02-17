@@ -1086,3 +1086,96 @@ default of package
 
 Object class is the root class of classes .
 
+********************************************************
+Day 24 -  17th Feb Monday
+********************************************************
+
+--------------------------------------------------
+operators in Java 
+-------------------------------------------
+Special symbol and it performs particular operation
+
+							operators
+							
+								
+			Unary				Binary				Ternary						
+								
+							
+operator
+operand can be value or variable 
+
+
+Unary operators :
+
+++     				--
+increment			decrement 
+							
+							pre 							post 
+							
+				++     				--            ++     				--
+			increment			decrement       increment			decrement 
+			
+			
+a			a=a+1				a=a-1			a=a+1				a=a-1
+			
+			
+pre-Increment 
+
+++var ==> Increases the value forst , then returns it 
+
+
+post-Increment 
+
+var++ ==> Returns the value first and then increments it 			
+
+
+-------------------
+Binary Operators 
+
+two operands with one operator in between 
+
+-------------------
+- Arithmethic / Mathematical Operators (5)
+
++ - * / % 
+
+-------------------
+- Relational Operators (comparision between two variables or values)(6)
+
+always output is boolean (true or false)
+
+> <  >= <=  == !=
+
+-------------------
+- Logical Operators (b/n two comparisions)
+
+&&	 ||  !
+
+and  or  not 
+
+
+And 
+
+		T    T     T
+		T    F     F
+		F    T     F
+		F    F     F 
+		
+OR 
+
+		T    T     T
+		T    F     T
+		F    T     T
+		F    F     F 
+
+- Bitwise Operators
+- Assignment Operators
+
+//*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button
+
+or
+
+//button[@type]
+
+
+//p[text()='Forgot your password? ']
