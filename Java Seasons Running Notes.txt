@@ -1168,8 +1168,8 @@ OR
 		F    T     T
 		F    F     F 
 
-- Bitwise Operators
-- Assignment Operators
+
+
 
 //*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button
 
@@ -1179,3 +1179,123 @@ or
 
 
 //p[text()='Forgot your password? ']
+
+********************************************************
+Day 25 -  18th Feb Tuesday
+********************************************************
+
+-------------------------
+- Bitwise Operators (7)
+
+individual bits of integers
+
+&   Bitwise AND 
+
+|   Bitwise OR
+
+^  Bitwise  XOR 
+
+~  Bitwise compilment
+
+<< Bitwise Left shift
+
+>> Bitwise Right shift
+
+>>> unary right shift 
+
+
+int x=5;   // 0101
+
+int y=3;   // 0011
+
+----------------------------------------
+- Assignment Operators
+
+short hand or short circuit 
+
+= +=  -= *= /=  %=  >>=   <<=
+
+---------------------------------------
+
+Ternary operator 
+or
+conditional operator
+or 
+decision making operator 
+
+syntax : 
+
+? : 
+
+expr1 ? 	expr2  : expr3;
+
+comparision True     False
+
+
+-----------------------------
+Member operator 
+
+ .
+ 
+e.g System.out 
+
+    Math.random()
+	
+-----------------------------------------------------
+
+********************************
+CONTROL FLOW or 
+FLOW CONTROL Statements
+*********************************
+
+							Control flow statement 
+							
+							
+		decision making statements 		iterative/looping statement 				jump/transfer statements 					
+	
+		if else 						for											break 	
+		switch							while										continue
+										do while									return 
+	
+	
+	salary   
+	
+	<=10000           10% 
+	>10000  <=20000   20%
+	>20000  <=30000   30%
+	>30000            40%
+	
+if else 
+
+if(condition)
+here condition should always return a boolean value 
+
+
+Shared by one of our friends (Venkat Rami Reddy)
+Round : 3 (Face to Face Techno managerial round)
+1.Introduction ( He asked multiple questions on my previous projects)
+2.Programme to find maximum value in array using python/java without loop
+3.Different types of data types
+4. Question on collections
+5. How to upload excel using selenium 
+6. How will you find a broken link using selenium 
+7. How will you found colour using selenium automation 
+8. Write method for screenshot
+9. What is POM .XML
+10. Write a method to select drop down values and explain various types in it
+11. explain difference b/w Put and get  in postman
+12. What is RCA and how would you provide justification 
+13. How would you choose the regressiony scenarios 
+14. Tell me a few negative scenarios you have written 
+15. What are Agile ceremonies 
+16. Roles you played in all agile ceremonies
+17. Do you have scrum master and PO in your project 
+18. How you handle if you have short span of time for delivery 
+19. How you handle if you were a team lead of 5 team members and 1 guy is lazy and not progressing with payload. How will you resolve or escalate it
+20. How will you handle if there is a rivalry between you and fellow colleague and you need to work with him for product delivery 
+21. What is your current team strength 
+22. Provide justification for achievements mentioned in resume 
+23. Why you want to join this organisation 
+24. Why are you leaving previous organisation 
+25. Exact experience in current company 
+26. Are you currently serving Notice period
