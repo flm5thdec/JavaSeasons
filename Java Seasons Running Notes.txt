@@ -1248,7 +1248,7 @@ CONTROL FLOW or
 FLOW CONTROL Statements
 *********************************
 
-							Control flow statement 
+							Control flow statements 
 							
 							
 		decision making statements 		iterative/looping statement 				jump/transfer statements 					
@@ -1299,3 +1299,57 @@ Round : 3 (Face to Face Techno managerial round)
 24. Why are you leaving previous organisation 
 25. Exact experience in current company 
 26. Are you currently serving Notice period
+
+
+********************************************************
+Day 26 -  19th Feb Wednesday
+********************************************************
+
+		salary   
+		
+					Non-IT 			IT 
+	
+	<=10000           10% 			20%
+	>10000  <=20000   20%			30%
+	>20000  <=30000   30%			40%
+	>30000            40%			50%
+	
+	
+Switch case :
+
+switch(expression) {
+
+case value1:  // code to executed 
+              break ;
+case value2:  // code to executed 
+			  break;
+			  
+default: //code for non-matching 
+
+
+}
+
+expression can be  byte / short / int  / char 
+
+but not  long , boolean , float / double 
+
+Cannot switch on a value of type long. Only convertible int values, strings or enum variables are permitted
+Cannot switch on a value of type float. Only convertible int values, strings or enum variables are permitted
+Cannot switch on a value of type boolean. Only convertible int values, strings or enum variables are permitted
+
+???????????????????????????????????????????????
+Assignment : 5
+
+write the scripts to launch browser based on browser name 
+
+use iflese and also switch case 
+
+if i choose "chrome" then chrome browser should be launched 
+			 "firefox"	  
+			 "edge" 
+
+
+send the code/screenshot to below email id
+flmtechteam.testing@gmail.com
+
+???????????????????????????????????????????????	
