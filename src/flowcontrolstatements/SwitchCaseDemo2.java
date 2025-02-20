@@ -39,8 +39,10 @@ public class SwitchCaseDemo2 {
 			month = "Jun";
 			break;
 		case 7:
+		{
 			month = "Jul";
 			break;
+		}
 		case 8:
 			month = "Aug";
 			break;

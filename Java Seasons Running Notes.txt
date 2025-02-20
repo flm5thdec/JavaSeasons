@@ -1329,7 +1329,7 @@ default: //code for non-matching
 
 }
 
-expression can be  byte / short / int  / char 
+expression can be  byte / short / int  / char / String 
 
 but not  long , boolean , float / double 
 
@@ -1338,7 +1338,7 @@ Cannot switch on a value of type float. Only convertible int values, strings or 
 Cannot switch on a value of type boolean. Only convertible int values, strings or enum variables are permitted
 
 ???????????????????????????????????????????????
-Assignment : 5
+Assignment : 6
 
 write the scripts to launch browser based on browser name 
 
@@ -1353,3 +1353,56 @@ send the code/screenshot to below email id
 flmtechteam.testing@gmail.com
 
 ???????????????????????????????????????????????	
+
+
+********************************************************
+Day 27 -  20th Feb Thursday
+********************************************************
+
+
+Iterative or looping statements 
+
+
+---------------------
+for loop 
+
+if you know how many times you need to iterate then go for "for loop"
+
+syntax :
+
+for( initialization ; condition check ; increment or decrement )
+{
+
+statements 
+
+}
+
+--------------------------------
+while loop
+
+while(condition)
+{
+
+//statements 
+
+}
+
+
+
+		int i=1;
+		for(;i<=5;)
+		{
+			System.out.println("Hello world...");
+			i=i+1;
+		}
+		
+-------------------------------------------
+do while 
+
+do 
+{
+
+//statements 
+
+
+}while(condition);	
