@@ -2,11 +2,11 @@ package objectandclass;
 
 public class Person {
 	
-	String name;
+	public String name;
 	
-	int age;
+	public int age;
 	
-	long ph;
+	public long ph;
 	
 	public void greet()
 	{

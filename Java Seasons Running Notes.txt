@@ -1406,3 +1406,45 @@ do
 
 
 }while(condition);	
+
+
+********************************************************
+Day 28 -  22nd Feb Saturday
+********************************************************
+jump or transfer statements :
+
+will be used inside a block or loop or switch case 
+
+break :
+
+this will break the current and further iteration 
+
+
+continue : this will skip the particular iteration 
+
+
+----------------------------------
+Arrays
+----------------------------------
+
+it's a collection of homogenous datatypes having fixed length 
+
+syntax :
+
+for variable
+access-specifier	access-modifier	datatype variableName = value;
+
+for Array
+
+method 1
+
+access-specifier	access-modifier	datatype[] arrayName = {value1,value2..valuen};
+
+or 
+
+
+access-specifier	access-modifier	datatype[] arrayName =new datatype[no elements in array];
+
+
+
+https://chat.whatsapp.com/EOi9a3hTEhSFPcKfPqFiTe
