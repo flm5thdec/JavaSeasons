@@ -1,54 +1,27 @@
 package arrays;
 
-import objectandclass.Person;
-
 public class ArraysDemo2 {
 
 	public static void main(String[] args) {
 		
+		int[] a=new int[5];
 		
-		System.out.println("Hi..");
-		
-		Person[] p=new Person[5];
-		
-		System.out.println(p.length);
-		
-	
-		
-		p[0]=new Person();
-		
-		
-		
-		for(int i=0;i<p.length;i++)
-		{
-			if(p[i]!=null)
-			{
-				System.out.println(p[i].name);
-				
-				System.out.println(p[i].age);
-				System.out.println(p[i].ph);
-			}
+		for(int i=0;i<a.length;i++) {
+			
+			System.out.println(a[i]);
 		}
 		
+		a[0]=100;
+		a[1]=200;
 		
-		p[0].name="john";
-		p[0].age=30;
-		p[0].ph=78220221542l;
+		a[4]=500;
 		
-		
-		for(int i=0;i<p.length;i++)
-		{
-			if(p[i]!=null)
-			{
-				System.out.println(p[i].name);
-				System.out.println(p[i].age);
-				System.out.println(p[i].ph);
-			}
+		for(int i=0;i<a.length;i++) {
+			
+			System.out.println(a[i]);
 		}
 		
-		
-		
-		
+
 	}
 
 }

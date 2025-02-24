@@ -1442,9 +1442,58 @@ access-specifier	access-modifier	datatype[] arrayName = {value1,value2..valuen};
 
 or 
 
+method 2
 
 access-specifier	access-modifier	datatype[] arrayName =new datatype[no elements in array];
 
 
 
 https://chat.whatsapp.com/EOi9a3hTEhSFPcKfPqFiTe
+
+
+
+********************************************************
+Day 29 -  24th Feb Monday
+********************************************************
+
+
+--------------------------------
+Two Dimensional Arrays
+--------------------------------
+
+
+username	password	full name	email id 
+reyaz	reyaz123	reyaz s	abacd@gmail.com
+ravi	ravi123	ravi k	xyz@gmail.com
+
+
+access-specifier	access-modifier	datatype[][] arrayName =new datatype[no of columns][no of rows/sets];
+
+
+
+???????????????????????????????????????????????
+Assignment : 6
+
+in https://adactinhotelapp.com/
+
+
+write the scripts to input registration  data from 
+Two Dimensiinal array 
+
+after entering the data click register and navigate back  
+
+
+
+send the code/screenshot to below email id
+flmtechteam.testing@gmail.com
+
+???????????????????????????????????????????????	
+
+
+-----------------------------------------------------
+Limitations of Arrays
+-----------------------------------------------------
+1.arrays store only homogenous datatypes
+
+2. arrays doesn't have growable 
+
