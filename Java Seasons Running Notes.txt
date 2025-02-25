@@ -1490,6 +1490,10 @@ flmtechteam.testing@gmail.com
 ???????????????????????????????????????????????	
 
 
+********************************************************
+Day 30 -  25th Feb Monday
+********************************************************
+
 -----------------------------------------------------
 Limitations of Arrays
 -----------------------------------------------------
@@ -1497,3 +1501,77 @@ Limitations of Arrays
 
 2. arrays doesn't have growable 
 
+3. predefined methods or logics or structure are not present 
+
+e.g for Search some element , remove some element etc ..
+
+
+-------------------------------------------
+Collections in JAVA
+-------------------------------------------
+
+Collection in Java is an API ( packages -> classes and Interfaces --> methods , abstract methods etc..)
+
+							Iterable (I) 
+								|
+							Collection (I)
+								|
+				---------------------------------------
+			    |					|					|
+			List(I)				Queue(I)			Set(I)
+		
+		- ArrayList(C)	   							-HashSet(C)     		
+		- LinkedList(c)								-LinkedHashSet(C)
+		- Vector(C)									-SortedSet(I)
+		- Stack(C)									-TreeSet(C)
+
+Collection(I) :
+
+add(E):boolean --> used to add element to collection 
+
+contains(Object):boolean --> serach the object in collection and returns true if present 
+
+isEmpty():boolean --> this will check if elements present in collection or not 
+
+remove(Object):boolean 
+
+size():int --> this will give no of elements present in collection 
+
+
+-----------------------------
+List(I):
+
+add(int, E) : void 
+
+get(int):E --> this is used to retrive the element at some index (here int is index) 
+
+in arrays we use [] e.g a[0] ==> element present in index 0 
+
+in list related classes we use get method 
+
+remove(int):E 
+
+---------------------------------
+							
+ArrayList(C):
+
+
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
+
+
+new ArrayList();       
+
+capacity 10 
+
+
+findElements(By):List<WebElement>
+
+
+
+
+
+---------------------------------------------	 								
+								
+HashSet(C)  								

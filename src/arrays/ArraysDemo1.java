@@ -8,6 +8,8 @@ public class ArraysDemo1 {
 		
 		System.out.println(a.length);
 		
+		System.out.println(a);
+		
 		//System.out.println(a[4]);
 		
 		for(int i=0;i<a.length;i++)
