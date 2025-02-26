@@ -1256,7 +1256,8 @@ FLOW CONTROL Statements
 		if else 						for											break 	
 		switch							while										continue
 										do while									return 
-	
+										for each or Enhanced For Loop 
+										
 	
 	salary   
 	
@@ -1446,7 +1447,7 @@ method 2
 
 access-specifier	access-modifier	datatype[] arrayName =new datatype[no elements in array];
 
-
+whatsapp group link
 
 https://chat.whatsapp.com/EOi9a3hTEhSFPcKfPqFiTe
 
@@ -1553,7 +1554,7 @@ remove(int):E
 
 ---------------------------------
 							
-ArrayList(C):
+ArrayList(C):  ordered collection or indexed collection 
 
 
 ArrayList()
@@ -1570,8 +1571,74 @@ findElements(By):List<WebElement>
 
 
 
+********************************************************
+Day 32 -  26th Feb Wednesday
+********************************************************
+
+Type Safety is not present when you initialize a common collection 
+
+To provide Type Safety to Collection classes 
+we are going to Use Generics 
 
 
----------------------------------------------	 								
-								
-HashSet(C)  								
+
+
+----------------------------
+for each loop
+or 
+Enhanced For Loop
+-----------------------------
+old model of for loop
+for loop 
+
+if you know how many times you need to iterate then go for "for loop"
+
+syntax :
+
+for( initialization ; condition check ; increment or decrement )
+{
+
+statements 
+
+}
+
+
+new model of for loop / for each loop / enchanced for loop ( java 1.5 )
+
+syntax :
+
+used for Arrays and Collection Classes 
+
+
+int[] a=new int[5];
+
+
+List<Integer> al=new ArrayList<Integer>();
+
+
+for(DataType someReference:ArrayName/CollectionName)
+{
+
+someReference
+}
+
+--------------------------------------------
+Set (I) 
+
+
+we choose Set related classes  if you want to have unqiue elements or remove duplicates 
+
+To do this Set classes uses hashing technique 
+
+
+--------------------------------------------
+HashSet (C)
+
+
+HashSet()  //default capacity 16 
+HashSet(int)  
+HashSet(int, float)
+HashSet(int, float, boolean)
+HashSet(Collection<? extends E>)
+
+
