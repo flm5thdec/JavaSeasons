@@ -1642,3 +1642,96 @@ HashSet(int, float, boolean)
 HashSet(Collection<? extends E>)
 
 
+********************************************************
+Day 33 -  28th Feb Thursday
+********************************************************
+
+
+Iterator or Cursors in Java : 
+
+Iterator<E> (I) :
+
+hasNext():boolean  ==> this will check is there any element in next level 
+next():E 
+      ==> it will retrive the element present in next level
+	  ==> also it moves the iterator or cursor to next level 
+
+
+-----------------------------
+Exception Handling 
+------------------------------
+
+compilation error : 
+
+who will find this ? compiler 
+when ? during compilation
+who should rectifiy ? programmer /developer
+
+
+runtime error is called exception 
+who will find this ? JVM  
+when ? during runtime or execution 
+who should rectifiy ? programmer /developer
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at exceptions.ExceptionDemo1.main(ExceptionDemo1.java:14)
+
+for Exception handling :
+
+try catch finally throw throws 
+
+
+try -> block {}
+
+catch --> block with parameter 
+
+try-catch 
+
+try
+{
+//risky code means code which may give exception
+
+}
+catch(Exception e)
+{
+//exception hanlding code or user friendly code 
+
+}
+
+
+-----------------------------
+Exception Hiererichy
+
+Throwable(C)
+
+	- getMessage():String 
+	- printStackTrace():void 
+	
+------------------------------------------
+how many types of Exceptions ?
+
+- Checked Excpetions 
+  Exceptions which are check by compiler are called Checked Exceptions 
+  for hanlding Checked Exceptions we can use 
+    i)throws 
+	
+	public static void main(String[] args) throws InterruptedException
+	
+	ii) try catch 
+	
+	 	
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+  
+- Unchecked Exceptions 
+
+	
+try catch 
+
+try catch catch 
+	
