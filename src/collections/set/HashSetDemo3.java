@@ -29,10 +29,10 @@ public class HashSetDemo3 {
 		}
 		
 		System.out.println("using iterator method ..");
-		Iterator<String> it=hs.iterator();
-		while(it.hasNext())
+		Iterator<String> obj=hs.iterator();
+		while(obj.hasNext())
 		{
-			String s=it.next();
+			String s=obj.next();
 			System.out.println(s);
 		}
 		

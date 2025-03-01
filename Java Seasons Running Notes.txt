@@ -1735,3 +1735,33 @@ try catch
 
 try catch catch 
 	
+********************************************************
+Day 34 -  1st Mar Saturday
+********************************************************
+
+finally  (should be present after try or try catch ) 
+
+
+
+-- this a block which can be used to execute set of instructions 
+irrespective of exception 
+
+
+
+try catch 
+
+try catch catch ...
+
+try finally 
+
+try catch catch ..finally 
+
+-----------------------------------
+throw 
+-----------------------------------
+
+used to throw a custom or user defined exception 
+
+
+
+
